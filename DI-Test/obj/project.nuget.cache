@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "1a9dnm1f5Q8=",
+  "success": true,
+  "projectFilePath": "E:\\LearnASPDotNET\\DI-Test\\DI-Test.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thich\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "C:\\Users\\thich\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
