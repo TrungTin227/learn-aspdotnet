@@ -69,12 +69,12 @@
         }
       }
     },
-    "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj": {
+    "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj",
-        "projectName": "Infratructure",
-        "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj",
+        "projectUniqueName": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\thich\\.nuget\\packages\\",
         "outputPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\obj\\",
         "projectStyle": "PackageReference",
@@ -170,8 +170,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj": {
-                "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj"
+              "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj"
               },
               "E:\\LearnASPDotNET\\TodoList\\UseCases\\UseCases.csproj": {
                 "projectPath": "E:\\LearnASPDotNET\\TodoList\\UseCases\\UseCases.csproj"

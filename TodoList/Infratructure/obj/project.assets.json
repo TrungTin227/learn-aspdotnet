@@ -52,9 +52,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj",
-      "projectName": "Infratructure",
-      "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj",
+      "projectUniqueName": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj",
+      "projectName": "Infrastructure",
+      "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\thich\\.nuget\\packages\\",
       "outputPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\obj\\",
       "projectStyle": "PackageReference",

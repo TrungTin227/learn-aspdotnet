@@ -36,7 +36,5 @@ namespace UseCases
             repository.Delete(id);
            
         }
-
-        
     }
 }

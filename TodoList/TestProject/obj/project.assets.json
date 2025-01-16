@@ -1719,7 +1719,7 @@
           "bin/placeholder/Entities.dll": {}
         }
       },
-      "Infratructure/1.0.0": {
+      "Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1727,10 +1727,10 @@
           "UseCases": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/Infratructure.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         },
         "runtime": {
-          "bin/placeholder/Infratructure.dll": {}
+          "bin/placeholder/Infrastructure.dll": {}
         }
       },
       "UseCases/1.0.0": {
@@ -5540,10 +5540,10 @@
       "path": "../Entities/Entities.csproj",
       "msbuildProject": "../Entities/Entities.csproj"
     },
-    "Infratructure/1.0.0": {
+    "Infrastructure/1.0.0": {
       "type": "project",
-      "path": "../Infratructure/Infratructure.csproj",
-      "msbuildProject": "../Infratructure/Infratructure.csproj"
+      "path": "../Infratructure/Infrastructure.csproj",
+      "msbuildProject": "../Infratructure/Infrastructure.csproj"
     },
     "UseCases/1.0.0": {
       "type": "project",
@@ -5553,7 +5553,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "Infratructure >= 1.0.0",
+      "Infrastructure >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
       "UseCases >= 1.0.0",
       "coverlet.collector >= 6.0.0",
@@ -5594,8 +5594,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj": {
-              "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infratructure.csproj"
+            "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj": {
+              "projectPath": "E:\\LearnASPDotNET\\TodoList\\Infratructure\\Infrastructure.csproj"
             },
             "E:\\LearnASPDotNET\\TodoList\\UseCases\\UseCases.csproj": {
               "projectPath": "E:\\LearnASPDotNET\\TodoList\\UseCases\\UseCases.csproj"
