@@ -2,14 +2,11 @@
 
 namespace UseCases
 {
-    public class TodoListManager
+    public class TodoListManager(ITodoItemRepository repository)
     {
-        private readonly ITodoItemRepository repository;
+        private readonly ITodoItemRepository repository = repository;
 
-        public TodoListManager(ITodoItemRepository repository)
-        {
-            this.repository = repository;
-        }
+        
         public IEnumerable<TodoItem> GetTodoItems()
         {
             return repository.GetItems();
@@ -17,7 +14,7 @@ namespace UseCases
 
         public void AddTodoItem(TodoItem item)
         {
-            repository.Add(item);
+            repository.Add(item); // không cần biết được cách lưu trữ dữ liệu 
         }
 
         public void MarkComplete(int id)
@@ -25,12 +22,11 @@ namespace UseCases
             var item = repository.GetById(id);
             if (item != null)
             {
-                item.IsComplete = true;
+                item.IsCompleted = true;
                 repository.Update(item);
             }
             
         }
-
         public void Delete(int id)
         {
             repository.Delete(id);

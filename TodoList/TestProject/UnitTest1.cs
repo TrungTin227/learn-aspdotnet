@@ -6,24 +6,19 @@ using UseCases;
 namespace TestProject
 {
     public class UnitTest1
-    { 
-
+    {
         [Fact]
-        public void AddTodoItem_ShouldAddItem()
+        public void CreateTodoItem_And_Set_Completed_Test()
         {
-            // Arrange
-            var mockRepository = new IMemoryTodoItemRepository();
-            var newItem = new TodoItem { Id = 4, Text = "New Task", IsComplete = false };
-            var manager = new TodoListManager(mockRepository);
-
-            // Act
-            manager.AddTodoItem(newItem);
-            
-
-            // Assert
-            Assert.True(manager.GetTodoItems().First().IsComplete);
+            var repository = new InMemoryTodoItemRepository();
+            var manager = new TodoListManager(repository);
+            var item = new TodoItem { Id = 1, Text = "Test", IsCompleted = false };
+            manager.AddTodoItem(item);
+            manager.MarkComplete(1);
+            var items = manager.GetTodoItems();
+            Assert.Single(items);
+            Assert.Equal(item, items.First());
         }
 
-       
     }
 }

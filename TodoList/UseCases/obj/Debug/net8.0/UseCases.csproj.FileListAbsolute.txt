@@ -1,0 +1,16 @@
+E:\LearnASPDotNET\TodoList\UseCases\bin\Debug\net8.0\UseCases.deps.json
+E:\LearnASPDotNET\TodoList\UseCases\bin\Debug\net8.0\UseCases.dll
+E:\LearnASPDotNET\TodoList\UseCases\bin\Debug\net8.0\UseCases.pdb
+E:\LearnASPDotNET\TodoList\UseCases\bin\Debug\net8.0\Entities.dll
+E:\LearnASPDotNET\TodoList\UseCases\bin\Debug\net8.0\Entities.pdb
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.csproj.AssemblyReference.cache
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.GeneratedMSBuildEditorConfig.editorconfig
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.AssemblyInfoInputs.cache
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.AssemblyInfo.cs
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.csproj.CoreCompileInputs.cache
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.sourcelink.json
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.csproj.Up2Date
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.dll
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\refint\UseCases.dll
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\UseCases.pdb
+E:\LearnASPDotNET\TodoList\UseCases\obj\Debug\net8.0\ref\UseCases.dll

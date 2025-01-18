@@ -1,4 +1,4 @@
-using Infratructure;
+﻿using Infratructure;
 using UseCases;
 
 namespace TodoList
@@ -12,8 +12,9 @@ namespace TodoList
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
-            builder.Services.AddSingleton<ITodoItemRepository, IMemoryTodoItemRepository>();
-            builder.Services.AddSingleton<TodoListManager>();
+            //Trước khi sử dụng phải đăng ký dịch vụ IMemoryTodoItemRepository
+            builder.Services.AddSingleton<ITodoItemRepository, InMemoryTodoItemRepository>(); 
+            builder.Services.AddTransient<TodoListManager>();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

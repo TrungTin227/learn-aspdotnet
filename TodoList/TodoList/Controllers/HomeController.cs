@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TodoList.Models;
 using UseCases;
@@ -7,6 +7,7 @@ namespace TodoList.Controllers
 {
     public class HomeController : Controller
     {
+        //Controller ch? c?n quan tâm làm soa ?? l?y ???c d? li?u và b? nào trong model ?ó
         private readonly TodoListManager _listManager;
         private readonly ILogger<HomeController> _logger;
 
@@ -25,7 +26,7 @@ namespace TodoList.Controllers
                 {
                     Id = item.Id,
                     Text = item.Text,
-                    IsComplete = item.IsComplete
+                    IsCompleted = item.IsCompleted
                 }).ToList()
             });
         }
@@ -44,8 +45,24 @@ namespace TodoList.Controllers
             {
                 Id = item.Id,
                 Text = item.Text,
-                IsComplete = false
+                IsCompleted = false
             });
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult MaskComplete(int[] completedItems) //Có thể hoàn thành nhiều công việc cùng lúc nên chỗ nãy phải là 1 mảng chứ không phải 1 biến bình thường
+        {
+            
+            if(completedItems == null || completedItems.Length == 0)
+            {
+                return RedirectToAction("Index");
+            }    
+                foreach (var i in completedItems)
+                {
+                    _listManager.MarkComplete(i);
+                }
+            
             return RedirectToAction("Index");
         }
 

@@ -3,7 +3,7 @@ using UseCases;
 
 namespace Infratructure
 {
-    public class IMemoryTodoItemRepository : ITodoItemRepository
+    public class InMemoryTodoItemRepository : ITodoItemRepository
     {
         private List<TodoItem> items = new List<TodoItem>();
         public void Add(TodoItem item)
@@ -36,7 +36,7 @@ namespace Infratructure
             if (existingItem != null)
             {
                 existingItem.Text = item.Text;
-                existingItem.IsComplete = item.IsComplete;
+                existingItem.IsCompleted = item.IsCompleted;
             }
         }
     }

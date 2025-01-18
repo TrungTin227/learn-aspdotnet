@@ -1,16 +1,14 @@
-﻿@model TodoList.Models.TodoListViewModel
-@{
-    ViewData["Title"] = "Home Page";
-}
-
-<div class="text-center">
-    <h1 class="display-4">To Do</h1>
+﻿<form method="post" asp-action="Index">
     <ul>
         @foreach (var item in Model.Items)
         {
-            <li>@item.Text</li>
+            <li>
+                <input type="checkbox" name="completedItems" value="@item.Id"
+                @(item.IsCompleted ? "checked disabled" : "") />
+                @item.Text
+            </li>
         }
     </ul>
-    <a class="btn btn-primary" href="Home/Add">Add</a>
-
-</div>
+    <button type="submit" class="btn btn-primary">Mark as Complete</button>
+</form>
+<a class="btn btn-secondary" href="Home/Add">Add New Task</a>
