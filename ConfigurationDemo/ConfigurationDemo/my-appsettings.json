@@ -1,0 +1,15 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "FileName": "my-appsettings.json",
+  "ApiSettings": {
+    "BaseUrl": "https://api.example.com",
+    "ApiKey": "1234567890",
+    "ApiSecret": "0991979C-7E1D-4B02-814A-C8998004FBBA"
+  }
+}
